@@ -114,5 +114,5 @@ module.exports = {
     let prod = products.find((el) => el.name === name);
     if (!prod) throw Error('Producto no encontrado');
     return prod.rating;
-  },
+  }
 };

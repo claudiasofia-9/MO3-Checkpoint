@@ -14,6 +14,7 @@ router.get('/categories', (require, resolve) => {
   resolve.json(models.listCategories());
 });
 
+
 router.post('/categories', (require, resolve) => {
   let { category } = require.body;
   try {
